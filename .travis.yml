@@ -1,8 +1,5 @@
 language: java
 
 notifications:
-	email:
-		recipients:
-			jorgegaguilar@hotmail.es
-		on_success: always
-		on_failure: never
+	email: false
+
