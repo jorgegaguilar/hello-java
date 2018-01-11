@@ -1,2 +1,9 @@
 language: java
 jdk: oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: kooLa2pp+Wvbz9vVbfJfwK0IxBK0HCtKCwmlDrVoP75Bfn0O/D5ItvQoGyXo6ZmoTxM5Tz26R+jcGHhL49nBmHW3mnINtBrGW2QEZxJbZPc/yIPXwAFcLOLjwWp4Wb+uqJeDOsdAeYdkbkCqM/aQefUjtDPvH/86Vx3/S4N7lGRkylnSV9r/7+1QJ/516Id3CLCt95E9BOnRt1dWUuEUOxeVi7vB8q63tF8EbaY2Bj8BmsDsz7vl7IoU1KYaQue+Ak5DNX5OLgDrAmQ5Gd0mc2mM/5IJaTpTEyB1XjaAOIPyXkwXnQ3hhSDYkLCed15Z/GYK0OdZSt8uT1A1L3aPs3RPQ+M+pskNSpyV78tfXoImusw67E1skqv4pxjGMjchR6VDKGeV3lB6pUyr8KRtxdzTdY5NB74cGEpub5ykmrsrjqhlnV6ptqG2uDKkYvaLcipgyjEYEAjmFSACC4ZsmIBuJd4+E/SLoUXlu0jWk+wu1cZTvn2BMOk6EflYxuDehNoNZjYugLyp7HAhuxnyyIERGBd+KWfhLcjUkfX+0NrFDXo2FUFz0wLC9dhQjkKBodMiG881glewm2HyUeZICcdsdB2p0yb1eas8QblXYsgY1EZC8JmTUriAA7jQqICtYSoEhcuHr3yulzUbqhSgnMkBQab17aGHoBz+oiVuhMo=
+  app: jorgoragu
+  on:
+    repo: jorgegaguilar/hello-java
